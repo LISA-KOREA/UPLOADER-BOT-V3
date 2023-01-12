@@ -1,0 +1,74 @@
+{
+  "name": "Uploader Bot V3 🚀",
+  "description": "Telegram's best Open Source Url Uploader Bot. Create your Fork now.",
+  "logo": "https://te.legra.ph/file/82c925ccc38606d837831.jpg",
+  "keywords": [
+    "telegram",
+    "best",
+    "yt-dlp",
+    "downloader",
+    "open",
+    "source",
+    "ffmpeg",
+    "remote",
+    "uploader"
+  ],
+  "website": "https://github.com/LISA-KOREA",
+  "repository": "https://github.com/LISA-KOREA",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string. @BotFather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "Your Mongodb Url",
+      "value": ""
+    },
+    "LOG_CHANNEL": {
+      "description": "Your Any Own Private Channel ID Where Your Bot As Admin With Full Permission",
+      "value": ""
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Your Update channel id or skip",
+      "value": "-1001533227813"
+    },
+    "DEF_THUMB_NAIL_VID_S": {
+      "description": "Add It For M3u8 Link thumbnail and For default thumbnail to be used in the videos. Incase, yt-dlp is unable to find a thumbnail. If Not add M3u8 link Will Not Work",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram ID For Broadcast",
+      "value": "1834908260"
+    },
+    "BOT_USERNAME": {
+      "description": "Your Bot Username Without @",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
+
