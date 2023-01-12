@@ -14,7 +14,7 @@
     "uploader"
   ],
   "website": "https://github.com/LISA-KOREA",
-  "repository": "https://github.com/LISA-KOREA",
+  "repository": "https://github.com/LISA-KOREA/UPLOADER-BOT-V3",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
