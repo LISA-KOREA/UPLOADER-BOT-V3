@@ -20,7 +20,7 @@
 
 ### Deploy To Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/LISA-KOREA/UPLOADER-BOT-V3&branch=main&name=UPLOADER-BOT-V3)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/LISA-KOREA/UPLOADER-BOT-V3&branch=Master&name=UPLOADER-BOT-V3)
 
 ###NOTICE
 
