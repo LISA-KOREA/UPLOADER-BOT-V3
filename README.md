@@ -26,6 +26,11 @@
 
 Use koyeb.txt file to deploy in koyeb
 
+#### How To Create Your Owner [YouTube](https://github.com/LISA-KOREA/UPLOADER-BOT-V3)
+
+#### How to create mongoDB url video [YouTube Link](https://youtu.be/VudXkbirhM8)
+
+
 ### Comment
 
 ```
