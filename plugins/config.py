@@ -23,7 +23,7 @@ class Config():
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = int(os.environ.get("UPDATE_CHANNEL", 538410432))
 
     MAX_FILE_SIZE = 4194304000
 
