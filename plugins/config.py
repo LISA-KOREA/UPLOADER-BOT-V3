@@ -58,7 +58,3 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
-
-    PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
-
-    PRO_USERS.append(OWNER_ID)
