@@ -9,9 +9,9 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-class Config(object):
+class Config():
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "test")
 
     API_ID = int(os.environ.get("API_ID", 12345))
 
@@ -23,7 +23,7 @@ class Config(object):
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = int(os.environ.get("UPDATE_CHANNEL", ""))
 
     MAX_FILE_SIZE = 4194304000
 
