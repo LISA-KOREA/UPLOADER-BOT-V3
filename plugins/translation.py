@@ -36,7 +36,7 @@ I Am Telegram URL Uploader Bot.
 
 **🤖 Source** : [Click](https://github.com/LISA-KOREA/UPLOADER-BOT-V3)
 
-**🧿 Language** : [Python 3.10.9](https://www.python.org/)
+**🧿 Language** : [Python 3.10.11](https://www.python.org/)
 
 **📢 Framework** : [Pyrogram 1.4.16](https://docs.pyrogram.org/)
 
