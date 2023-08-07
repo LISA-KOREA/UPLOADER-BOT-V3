@@ -19,7 +19,7 @@ services:
       - key: BOT_USERNAME
         sync: false
       - key: WEBHOOK
-        sync: ANYTHING
+        sync: false
       - key: DEF_THUMB_NAIL_VID_S
         sync: false
       - key: DATABASE_URI
