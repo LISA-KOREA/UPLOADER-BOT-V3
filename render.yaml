@@ -16,11 +16,11 @@ services:
         sync: false
       - key: ADMINS
         sync: false
-      - key: DATABASE_NAME
+      - key: DEF_THUMB_NAIL_VID_S
         sync: false
       - key: DATABASE_URI
         sync: false 
-      - key: PICS
+      - key: UPDATES_CHANNEL
         sync: false
       - key: LOG_CHANNEL
         sync: false    
