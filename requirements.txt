@@ -3,7 +3,7 @@ beautifulsoup4
 hachoir
 numpy
 Pillow
-pyrogram==1.4.16
+pyrogram
 requests
 tgcrypto
 yt-dlp
