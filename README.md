@@ -1,4 +1,4 @@
-## UPLOADER BOT V3 🚀 (NOT WORKING 🪦)
+### UPLOADER BOT V3  [Dead ⚰] not working this repo use v4 repo
 
 
 [![logo](https://te.legra.ph/file/82c925ccc38606d837831.jpg)](https://telegram.dog/UploadLinkToFileBot)
